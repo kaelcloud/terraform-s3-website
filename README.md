@@ -56,12 +56,10 @@ Ensure the following before running the Terraform script:
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/<your-username>/terraform-s3-static-website.git
-   ```bash
    cd terraform-s3-static-website
 2. Configure your AWS credentials using one of the following methods:
    ```bash
    aws configure
-   ```bash
    export AWS_ACCESS_KEY_ID=<your-access-key>
    export AWS_SECRET_ACCESS_KEY=<your-secret-key>
 3. Initialize Terraform in the project directory
